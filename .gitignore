@@ -2,11 +2,6 @@
 *.pdb
 *.dll
 *.cache
-bin/Debug/netcoreapp2.0/spectrolyte.tv.runtimeconfig.dev.json
-obj/Debug/netcoreapp2.0/spectrolyte.tv.csproj.FileListAbsolute.txt
-obj/spectrolyte.tv.csproj.nuget.g.targets
-obj/spectrolyte.tv.csproj.nuget.g.props
-obj/project.assets.json
-obj/Debug/netcoreapp2.0/spectrolyte.tv.AssemblyInfo.cs
-bin/Debug/netcoreapp2.0/spectrolyte.tv.runtimeconfig.json
-bin/Debug/netcoreapp2.0/spectrolyte.tv.deps.json
+bin/*
+obj/*
+node_modules/*
