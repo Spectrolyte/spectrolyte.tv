@@ -18,7 +18,7 @@ namespace spectrolyte.tv
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddDbContext<BlogPostContext>(opt => opt.UseInMemoryDatabase("Spectrolyte"));
+            services.AddDbContext<BlogPostContext>(options => options.UseNpgsql("Server=Westeros;Host=localhost;Port=1337;Database=spectrolyte;Username=postgres;Password=postgres") );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
